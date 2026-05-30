@@ -14,7 +14,7 @@ class SettingsPageSeeder extends Seeder
                 'title' => 'About Us',
                 'slug' => 'about-us',
                 'short_description' => 'Learn more about our company and mission.',
-                'full_content' => '<h2>Welcome to Nexora</h2><p>We are a leading provider of digital content.</p>',
+                'full_content' => '<h2>Welcome to MovieVerse</h2><p>We are a leading provider of digital content.</p>',
                 'status' => true,
             ],
             [
