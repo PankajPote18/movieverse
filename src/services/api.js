@@ -1,5 +1,5 @@
 // Central API base — change this once if your backend URL changes
-const BASE = 'https://movie-qbov.onrender.com/api';
+const BASE = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : 'http://localhost:5000/api';
 
 const get = (path) =>
   fetch(`${BASE}${path}`).then((r) => {
